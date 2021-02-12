@@ -1,5 +1,20 @@
 .App {
   text-align: center;
+  display: flex;
+  /* background-color: #1687a7; */
+  height: 100vh;
+}
+
+.Board {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+}
+
+.Data {
+  margin: auto;
 }
 
 .App-logo {
